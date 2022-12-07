@@ -8,8 +8,8 @@ int main()
     cin>>a;
     cout<<" Enter no 2 : ";
     cin>>b;
-
-    cout<<" MULTIPLY : "<< a*b<<endl;
+  if(a!=0 && b!=0)
+    cout<<" MULTIPLY  : "<< a*b<<endl;
 
 
     return 0;
